@@ -36,15 +36,15 @@
 }
 
 .banner {
-    background-color: aquamarine;
-    height: 500px;
+    background-color: blue;
+    height: 600px;
     text-align: center;
-    color: blueviolet;  
+    color: white;  
 }
 
 .banner img {
     border-radius: 100px;
-    height: 150px;
+    height: 200px;
     border: 6px solid white;
     margin-top: 100px;
 }
@@ -60,4 +60,67 @@
     width: 400px;
     border-radius: 50px;
     border: none;
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-kiri,
+.box-tengah,
+.box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 70px 20px 20px 55px;
+    float: left;
+}
+
+.box-kiri:hover,
+.box-tengah:hover,
+.box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+
+.myskills {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 90px;
+}
+
+.skill-kiri,
+.skill-tengah,
+.skill-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 70px 20px 20px 55px;
+    float: left;
+}
+
+.skill-kiri:hover,
+.skill-tengah:hover,
+.skill-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+
+.footer {
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    padding: 3px;
+    margin-top: 50px;
+    
 }
